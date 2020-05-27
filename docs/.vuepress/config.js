@@ -1,9 +1,9 @@
 module.exports = {
   title: "前端技能点总结",
   description: "前端",
-  base: '/', // 项目根路径
+  base: '/frontappBase/', // 项目根路径
   cache: false,
-  dest: '/dist/', // 打包后的文件夹路径，为了方便，我把 dist 文件夹放到了根目录上
+  dest: './dist/', // 打包后的文件夹路径，为了方便，我把 dist 文件夹放到了根目录上
   // head 标签中的额外内容
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }] // 这个是标签页 logo
@@ -36,7 +36,7 @@ module.exports = {
     activeHeaderLinks: true, // 默认值：true 滚动时通过 hash 高亮侧边栏标题
 
     // Git 仓库和编辑链接
-    repo: 'username/repo', // 你的仓库
+    repo: 'https://github.com/yating291018/frontappBase', // 你的仓库
     repoLabel: 'GitHub', // 导航栏上的文本
 
     editLinks: false
